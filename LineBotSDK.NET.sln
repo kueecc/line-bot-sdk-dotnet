@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LineBot", "LineBot\LineBot.csproj", "{C2F387E4-A718-412C-AB65-4BABCAF1FD82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Echo", "Echo\Echo.csproj", "{9CF751EA-8BAD-4D4A-856E-4190C0C2DF37}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C2F387E4-A718-412C-AB65-4BABCAF1FD82} = {C2F387E4-A718-412C-AB65-4BABCAF1FD82}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2F387E4-A718-412C-AB65-4BABCAF1FD82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2F387E4-A718-412C-AB65-4BABCAF1FD82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2F387E4-A718-412C-AB65-4BABCAF1FD82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2F387E4-A718-412C-AB65-4BABCAF1FD82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CF751EA-8BAD-4D4A-856E-4190C0C2DF37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CF751EA-8BAD-4D4A-856E-4190C0C2DF37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CF751EA-8BAD-4D4A-856E-4190C0C2DF37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CF751EA-8BAD-4D4A-856E-4190C0C2DF37}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
