@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>LineBot</id>
+    <version>1.0.0.0</version>
+    <title>LineBot</title>
+    <authors>kueecc</authors>
+    <owners>kueecc</owners>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+    <projectUrl>https://github.com/kueecc/line-bot-sdk-dotnet</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>SDK of the LINE BOT API Trial for .NET</description>
+    <releaseNotes>SDK of the LINE BOT API Trial for .NET</releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags>LineBot</tags>
+    <dependencies>
+      <dependency id="Newtonsoft.Json" version="7.0.1" />
+    </dependencies>
+  </metadata>
+</package>

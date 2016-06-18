@@ -3,6 +3,13 @@
 SDK of the LINE BOT API Trial for .NET
 
 
+## Installation ##
+
+line-bot-sdk-dotnet is available as a NuGet package. You can install it using the NuGet Package Console window:
+
+```
+PM> Install-Package LineBot
+```
 
 ## Configuration ##
 
